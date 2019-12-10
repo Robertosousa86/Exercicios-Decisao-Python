@@ -1,6 +1,7 @@
-print('Como testar se um número é positivo ou negativo? ')
-numero = int(input('Digite um número: '))
-if numero > 0:
-    print('o número', numero, 'é positivo !')
+print('Digite dois números, qual deles é o maior? ')
+numero = int(input('Digite o primeiro número: '))
+numero2 = int(input('Digite o proximo número: '))
+if numero > numero2:
+    print('o número', numero, 'é maior que o ', numero2, '!')
 else:
-    print(numero, 'é um número negativo!')
+    print(numero2, 'é o maior número!!')
