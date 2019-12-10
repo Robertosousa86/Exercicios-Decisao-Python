@@ -1,8 +1,8 @@
-print('Por favor informe  seu gênero')
-letra = input('F para feminino M para masculino: ').upper()
-if letra == 'F':
-    print('Feminino')
-elif letra == 'M':
-    print('Masculino')
+print('A letra que você digitar é uma consuante ou vogal? ')
+vogais = ['a', 'e', 'i', 'o', 'u']
+letra = input('Digite uma letra: ')
+if letra in vogais:
+    print(letra, 'é uma vogal')
 else:
-    print('Gênero livre')
+    print(letra, 'é uma consoante')
+print(type(vogais))
