@@ -1,7 +1,8 @@
-print('Digite dois números, qual deles é o maior? ')
-numero = int(input('Digite o primeiro número: '))
-numero2 = int(input('Digite o proximo número: '))
-if numero > numero2:
-    print('o número', numero, 'é maior que o ', numero2, '!')
+print('Por favor informe  seu gênero')
+letra = input('F para feminino M para masculino: ').upper()
+if letra == 'F':
+    print('Feminino')
+elif letra == 'M':
+    print('Masculino')
 else:
-    print(numero2, 'é o maior número!!')
+    print('Gênero livre')
